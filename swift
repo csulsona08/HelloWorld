@@ -23,6 +23,8 @@ class ViewController: UIViewController {
     
     var str = "Hello,World!"             //// variable can change
     let cons = "this is a constants"    //// constants can't change
+    let number = 33                      //// integer
+    let imniceguy = true                //// bool
 
     @IBAction func button(sender: UIButton) {      ////button
         
