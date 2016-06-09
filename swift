@@ -21,8 +21,8 @@ class ViewController: UIViewController {
     }
     
     
-    var str = "Hello,World!"             //// variable
-    let cons = "this is a constants"    //// constants
+    var str = "Hello,World!"             //// variable can change
+    let cons = "this is a constants"    //// constants can't change
 
     @IBAction func button(sender: UIButton) {      ////button
         
