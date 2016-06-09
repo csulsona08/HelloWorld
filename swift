@@ -19,10 +19,14 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    var str = "Hello,World!"             //// variable
+    let cons = "this is a constants"    //// constants
 
-    @IBAction func button(sender: UIButton) {
+    @IBAction func button(sender: UIButton) {      ////button
         
-       print("hello,World!")
+       print("hello,World!") ///// print console
     }
 
 }
