@@ -31,5 +31,19 @@ class ViewController: UIViewController {
        print("hello,World!") ///// print console
     }
 
+
+
+“var shoppingList = ["catfish", "water", "tulips", "blue paint"]  /// array   let emptyArray = [String]()
+shoppingList[1] = "bottle of water"
+ 
+var occupations = [       
+    "Malcolm": "Captain",  /////dictionary  “let emptyDictionary = [String: Float]()”
+    "Kaylee": "Mechanic", 
+]
+occupations["Jayne"] = "Public Relations”
+
+
+
+
 }
 
